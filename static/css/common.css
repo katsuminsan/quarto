@@ -1,0 +1,43 @@
+p {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.row {
+    margin: 5px
+}
+
+.row2 {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    column-gap: 50px;
+    margin: 20px
+}
+
+.content_center {
+    vertical-align: center;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    padding: 1px;
+    border: 1px solid white;
+}
+
+#enemy {
+    background-color: olive;
+}
+
+#main_stage {
+    background-color: gray;
+}
+
+#me {
+    background-color: black;
+}
+
+#present_stage {
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+}
